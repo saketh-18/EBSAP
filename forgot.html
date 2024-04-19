@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="nav-bar flex">
+            <img src="logo.png" alt="EBS AP LOGO"  class="logo-nav">
+            <h3>Account</h3>
+        </div>
+    <div class="container">
+    <img src="logo.png" alt="EBS AP Logo" class="logo">
+    <h1>EBS AP</h1>
+    <form id="login-form">
+      <h2>Reset Password</h2>
+      <input type="text" id="username" placeholder="enter new Password" required>
+      <input type="password" id="password" placeholder="Retype New Password" required>
+      <a href="/payment.html" type="submit" id="btn" class="login-btn">Login</a>
+    </form>
+    <a href="#" class="forgot-pass">forgot password</a>
+    <div id="payment-form" class="hidden">
+      <h2>Pay Your Bill</h2>
+      <p id="billing-no"></p>
+      <p id="billing-address"></p>
+      <button id="pay-btn">Pay Now</button>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
